@@ -7,13 +7,23 @@
         "laravel"
     ],
     "license": "MIT",
+    "repositories": {
+        "quickmetrics-laravel": {
+            "type": "path",
+            "url": "packages/feather/quickmetrics-laravel",
+            "options": {
+                "symlink": true
+            }
+        }
+    },
     "require": {
         "php": "^7.3",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0",
-        "laravel/tinker": "^2.0"
+        "laravel/tinker": "^2.0",
+        "feather/quickmetrics-laravel": "@dev"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",

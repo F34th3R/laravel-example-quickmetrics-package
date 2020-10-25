@@ -1,0 +1,26 @@
+{
+    "name": "feather/quickmetrics-laravel",
+    "description": "Laravel wrapper for the quickmetrics.io API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "F34th3R",
+            "email": "jafetlopezch@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "feather\\Quickmetrics\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "feather\\Quickmetrics\\QuickmetricsServiceProvider"
+            ]
+        }
+    }
+}
